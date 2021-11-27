@@ -9,6 +9,9 @@ If you generate the `.apk`, just install and open the app in your phone, select 
 
 1. Clone this repository in your computer and open it in [Unity](https://store.unity.com/#plans-individual)
 
+### IMPORTANT!
+I could not open the downloaded code directly in Unity, it crashes, so it is best to create a Unity project and copy the assets (including the scene!) into the new project and maybe importing Vuforia yourself before doing it
+
 2. Open `Scripts/SceneManager.cs` and change line 29 to `string apiKey = "<YOUR_API_KEY>";`, you can obtain your API key by creating a project at [Google Cloud Platform](https://console.cloud.google.com/) and opening the menu `API and Services > Credentials > API Keys`
 
 3. For iOS:
